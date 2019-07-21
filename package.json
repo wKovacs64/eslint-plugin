@@ -1,5 +1,5 @@
 {
-  "name": "@wkovacs64/eslint-plugin",
+  "name": "eslint-plugin-wkovacs64",
   "version": "0.0.0-semantically-released",
   "description": "@wKovacs64 ESLint plugin",
   "keywords": [
@@ -18,10 +18,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wKovacs64/eslint-plugin.git"
+    "url": "https://github.com/wKovacs64/eslint-plugin-wkovacs64.git"
   },
   "bugs": {
-    "url": "https://github.com/wKovacs64/eslint-plugin/issues"
+    "url": "https://github.com/wKovacs64/eslint-plugin-wkovacs64/issues"
   },
   "scripts": {
     "cm": "git-cz",

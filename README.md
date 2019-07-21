@@ -1,4 +1,4 @@
-# @wKovacs64/eslint-plugin
+# eslint-plugin-wkovacs64
 
 _My personal ESLint plugin._
 
@@ -8,7 +8,7 @@ _My personal ESLint plugin._
 ## Install
 
 ```
-yarn add --dev @wkovacs64/eslint-plugin
+yarn add --dev eslint-plugin-wkovacs64
 ```
 
 > Be sure to install the appropriately versioned `peerDependencies` as well.
@@ -22,16 +22,16 @@ the relevant configuration in your project's ESLint config:
 // .eslintrc.js
 
 module.exports = {
-  extends: ['@wkovacs64/eslint-plugin'],
+  extends: ['plugin:wkovacs64/base'],
 };
 ```
 
 [npm-image]:
-  https://img.shields.io/npm/v/@wkovacs64/eslint-plugin.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@wkovacs64/eslint-plugin
+  https://img.shields.io/npm/v/eslint-plugin-wkovacs64.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/eslint-plugin-wkovacs64
 [ci-image]:
-  https://img.shields.io/circleci/project/github/wKovacs64/eslint-plugin/master.svg?style=flat-square
-[ci-url]: https://circleci.com/gh/wKovacs64/eslint-plugin
+  https://img.shields.io/circleci/project/github/wKovacs64/eslint-plugin-wkovacs64/master.svg?style=flat-square
+[ci-url]: https://circleci.com/gh/wKovacs64/eslint-plugin-wkovacs64
 [semantic-release-image]:
   https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
