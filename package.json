@@ -1,0 +1,56 @@
+{
+  "name": "@wkovacs64/eslint-plugin",
+  "version": "0.0.0-semantically-released",
+  "description": "@wKovacs64 ESLint plugin",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslintplugin",
+    "eslint-config",
+    "eslint-plugin",
+    "wkovacs64"
+  ],
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wKovacs64/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/eslint-plugin/issues"
+  },
+  "scripts": {
+    "cm": "git-cz",
+    "format": "prettier --write \"**/*.{js,ts,tsx,html,json,md,yml,yaml}\"",
+    "lint": "eslint --ext \".js,.ts,.tsx\" .",
+    "validate": "yarn lint"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@wkovacs64/eslint-config": "6.0.0",
+    "@wkovacs64/prettier-config": "1.0.2",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.1",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.12.0",
+    "husky": "3.0.1",
+    "lint-staged": "9.2.0",
+    "prettier": "1.18.2",
+    "semantic-release": "15.13.18"
+  }
+}
