@@ -112,6 +112,17 @@ example) anymore if it means managing a single dependency (this package). The
 implementation details of this project were heavily inspired by
 [`eslint-plugin-shopify`][eslint-plugin-shopify].
 
+## Warning
+
+The resolution of the "bundled" plugins may only be working as a happy accident
+due to Yarn (flatter `node_modules`) and possibly ESLint hoisting (unreliable).
+But until ESLint provides an official way to include plugins as dependencies of
+shared configs, this will have to do. For reference:
+
+- [eslint/eslint#3458](https://github.com/eslint/eslint/issues/3458)
+- [eslint/rfcs#5](https://github.com/eslint/rfcs/pull/5)
+- [eslint/rfcs#14](https://github.com/eslint/rfcs/pull/14)
+
 ## License
 
 This module is distributed under the [MIT License][license].
