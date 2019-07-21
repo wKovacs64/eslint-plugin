@@ -22,9 +22,8 @@
   "bugs": {
     "url": "https://github.com/wKovacs64/eslint-plugin-wkovacs64/issues"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js",
     "lib"
   ],
   "scripts": {
