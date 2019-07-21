@@ -15,7 +15,6 @@
     "email": "justin.r.hall@gmail.com"
   },
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/wKovacs64/eslint-plugin-wkovacs64.git"
@@ -23,6 +22,11 @@
   "bugs": {
     "url": "https://github.com/wKovacs64/eslint-plugin-wkovacs64/issues"
   },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "cm": "git-cz",
     "format": "prettier --write \"**/*.{js,ts,tsx,html,json,md,yml,yaml}\"",
@@ -49,7 +53,8 @@
     "eslint-plugin-jest": "22.12.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.2",
-    "eslint-plugin-react-hooks": "1.6.1"
+    "eslint-plugin-react-hooks": "1.6.1",
+    "merge": "1.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.1.0",

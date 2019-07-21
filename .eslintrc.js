@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['@wkovacs64/eslint-config'],
+  extends: [require.resolve('./lib/config/base.js'), 'prettier'],
+  rules: {
+    'global-require': 'off',
+  },
 };
