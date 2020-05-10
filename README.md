@@ -34,11 +34,12 @@ configurations (described below) in your `extends` array.
 Next, you may augment the core configuration by applying any combination of
 "feature" configs.
 
-| Feature    | Extends                         |
-| ---------- | ------------------------------- |
-| Jest       | `'plugin:wkovacs64/jest'`       |
-| jest-dom   | `'plugin:wkovacs64/jest-dom'`   |
-| TypeScript | `'plugin:wkovacs64/typescript'` |
+| Feature         | Extends                              |
+| --------------- | ------------------------------------ |
+| Jest            | `'plugin:wkovacs64/jest'`            |
+| jest-dom        | `'plugin:wkovacs64/jest-dom'`        |
+| Testing Library | `'plugin:wkovacs64/testing-library'` |
+| TypeScript      | `'plugin:wkovacs64/typescript'`      |
 
 #### Prettier Configs
 
@@ -62,7 +63,7 @@ module.exports = {
 };
 ```
 
-React project with Jest, jest-dom, and Prettier:
+React project with Jest, jest-dom, Testing Library, and Prettier:
 
 ```js
 module.exports = {
@@ -70,6 +71,7 @@ module.exports = {
     'plugin:wkovacs64/react',
     'plugin:wkovacs64/jest',
     'plugin:wkovacs64/jest-dom',
+    'plugin:wkovacs64/testing-library',
     'prettier',
     'prettier/react',
   ],
@@ -90,7 +92,7 @@ module.exports = {
 };
 ```
 
-React project with Jest, jest-dom, TypeScript, and Prettier:
+React project with Jest, jest-dom, Testing Library, TypeScript, and Prettier:
 
 ```js
 module.exports = {
@@ -98,6 +100,7 @@ module.exports = {
     'plugin:wkovacs64/react',
     'plugin:wkovacs64/jest',
     'plugin:wkovacs64/jest-dom',
+    'plugin:wkovacs64/testing-library',
     'plugin:wkovacs64/typescript',
     'prettier',
     'prettier/react',
