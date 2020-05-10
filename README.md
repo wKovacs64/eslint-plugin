@@ -37,6 +37,7 @@ Next, you may augment the core configuration by applying any combination of
 | Feature    | Extends                         |
 | ---------- | ------------------------------- |
 | Jest       | `'plugin:wkovacs64/jest'`       |
+| jest-dom   | `'plugin:wkovacs64/jest-dom'`   |
 | TypeScript | `'plugin:wkovacs64/typescript'` |
 
 #### Prettier Configs
@@ -61,13 +62,14 @@ module.exports = {
 };
 ```
 
-React project with Jest and Prettier:
+React project with Jest, jest-dom, and Prettier:
 
 ```js
 module.exports = {
   extends: [
     'plugin:wkovacs64/react',
     'plugin:wkovacs64/jest',
+    'plugin:wkovacs64/jest-dom',
     'prettier',
     'prettier/react',
   ],
@@ -88,13 +90,14 @@ module.exports = {
 };
 ```
 
-React project with Jest, TypeScript, and Prettier:
+React project with Jest, jest-dom, TypeScript, and Prettier:
 
 ```js
 module.exports = {
   extends: [
     'plugin:wkovacs64/react',
     'plugin:wkovacs64/jest',
+    'plugin:wkovacs64/jest-dom',
     'plugin:wkovacs64/typescript',
     'prettier',
     'prettier/react',
