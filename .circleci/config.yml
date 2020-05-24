@@ -21,6 +21,18 @@ jobs:
           root: ~/
           paths:
             - project
+      - run:
+          name: Clone a real repository
+          command:
+            git clone --single-branch --depth 1
+            https://github.com/wKovacs64/use-stepper.git ~/example
+      - run:
+          name: Configure linkage
+          command:
+            yarn link && cd ~/example && yarn link eslint-plugin-wkovacs64
+      - run:
+          name: Lint a real repository
+          command: yarn lint
   release:
     <<: *defaults
     steps:
