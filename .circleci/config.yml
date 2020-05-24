@@ -32,7 +32,7 @@ jobs:
             yarn link && cd ~/example && yarn link eslint-plugin-wkovacs64
       - run:
           name: Lint a real repository
-          command: yarn lint
+          command: pwd && yarn lint
   release:
     <<: *defaults
     steps:
