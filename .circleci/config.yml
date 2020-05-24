@@ -29,7 +29,7 @@ jobs:
       - run:
           name: Configure linkage
           command:
-            yarn link && cd ~/example && yarn && yarn link
+            yarn link && cd ~/example && yarn --ignore-scripts && yarn link
             eslint-plugin-wkovacs64
       - run:
           name: Lint a real repository
