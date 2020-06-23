@@ -116,7 +116,7 @@ scenario finally got to me. At the time of this writing, I no longer care if I
 get peerDependency warnings about TypeScript in non-TypeScript projects (for
 example) anymore if it means managing a single dependency (this package). The
 implementation details of this project were heavily inspired by
-[`eslint-plugin-shopify`][eslint-plugin-shopify].
+[`@shopify/eslint-plugin`][@shopify/eslint-plugin].
 
 ## Warning
 
@@ -146,4 +146,5 @@ This module is distributed under the [MIT License][license].
   https://github.com/prettier/eslint-config-prettier#readme
 [license]:
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/tree/master/LICENSE.txt
-[eslint-plugin-shopify]: https://github.com/Shopify/eslint-plugin-shopify#readme
+[@shopify/eslint-plugin]:
+  https://github.com/Shopify/web-foundation/tree/main/packages/eslint-plugin#readme
