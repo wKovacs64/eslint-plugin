@@ -26,12 +26,12 @@ jobs:
             git clone --single-branch --depth 1
             https://github.com/wKovacs64/use-stepper.git ~/example
       - run:
-          name: Configure linkage
+          name: Install package in the real repository
           command:
-            yarn link && cd ~/example && rm yarn.lock && yarn link
-            eslint-plugin-wkovacs64 && yarn --ignore-scripts
+            npx yalc publish && cd ~/example && yarn --ignore-scripts && npx
+            yalc add --dev eslint-plugin-wkovacs64
       - run:
-          name: Lint a real repository
+          name: Lint the real repository
           command: cd ~/example && yarn lint
   release:
     <<: *defaults
