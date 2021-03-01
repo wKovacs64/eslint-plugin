@@ -43,15 +43,12 @@ Next, you may augment the core configuration by applying any combination of
 
 #### Prettier Configs
 
-Finally, you may apply any of the various [Prettier][eslint-config-prettier]
-configs. These must be **last** in your `extends` array.
+Finally, you may apply the [Prettier][eslint-config-prettier] config. This must
+be **last** in your `extends` array.
 
-| Project Type       | Extends                                                       |
-| ------------------ | ------------------------------------------------------------- |
-| Base (no React)    | `'prettier'`                                                  |
-| React              | `'prettier', 'prettier/react'`                                |
-| TypeScript         | `'prettier', 'prettier/@typescript-eslint'`                   |
-| TypeScript + React | `'prettier', 'prettier/react', 'prettier/@typescript-eslint'` |
+| Extends      |
+| ------------ |
+| `'prettier'` |
 
 ## Examples
 
@@ -73,7 +70,6 @@ module.exports = {
     'plugin:wkovacs64/jest-dom',
     'plugin:wkovacs64/testing-library',
     'prettier',
-    'prettier/react',
   ],
 };
 ```
@@ -87,7 +83,6 @@ module.exports = {
     'plugin:wkovacs64/jest',
     'plugin:wkovacs64/typescript',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
 };
 ```
@@ -103,8 +98,6 @@ module.exports = {
     'plugin:wkovacs64/testing-library',
     'plugin:wkovacs64/typescript',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
   ],
 };
 ```
