@@ -65,7 +65,7 @@
     "@wkovacs64/prettier-config": "3.0.0",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.23.0",
+    "eslint": "7.24.0",
     "husky": "6.0.0",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
