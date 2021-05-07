@@ -65,7 +65,7 @@
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
     "@wkovacs64/prettier-config": "3.0.0",
-    "commitizen": "4.2.3",
+    "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.25.0",
     "husky": "6.0.0",
