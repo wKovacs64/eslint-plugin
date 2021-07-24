@@ -62,8 +62,8 @@
     "merge": "^2.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "@wkovacs64/prettier-config": "3.0.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
