@@ -8,7 +8,7 @@ _My personal ESLint plugin._
 ## Install
 
 ```
-yarn add --dev eslint-plugin-wkovacs64
+npm install --save-dev eslint-plugin-wkovacs64
 ```
 
 > Be sure to install the appropriately versioned `eslint` peer dependency as
