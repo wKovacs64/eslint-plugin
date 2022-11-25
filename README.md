@@ -2,8 +2,7 @@
 
 _My personal ESLint plugin._
 
-[![npm Version][npm-image]][npm-url]
-[![Build Status][ci-image]][ci-url]
+[![npm Version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 [![semantic-release][semantic-release-image]][semantic-release-url]
 
 ## Install
