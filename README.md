@@ -3,7 +3,6 @@
 _My personal ESLint plugin._
 
 [![npm Version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
-[![semantic-release][semantic-release-image]][semantic-release-url]
 
 ## Install
 
@@ -133,9 +132,6 @@ This module is distributed under the [MIT License][license].
   https://img.shields.io/github/workflow/status/wKovacs64/eslint-plugin-wkovacs64/%F0%9F%A4%96%20CI/main?logo=github&style=flat-square
 [ci-url]:
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/actions?query=workflow%3Aci
-[semantic-release-image]:
-  https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[semantic-release-url]: https://github.com/semantic-release/semantic-release
 [eslint-config-prettier]:
   https://github.com/prettier/eslint-config-prettier#readme
 [license]:
