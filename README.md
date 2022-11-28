@@ -137,4 +137,4 @@ This module is distributed under the [MIT License][license].
 [license]:
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/tree/master/LICENSE.txt
 [@shopify/eslint-plugin]:
-  https://github.com/Shopify/web-foundation/tree/main/packages/eslint-plugin#readme
+  https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin#readme
