@@ -40,6 +40,12 @@ Next, you may augment the core configuration by applying any combination of
 | Testing Library | `'plugin:wkovacs64/testing-library'` |
 | TypeScript      | `'plugin:wkovacs64/typescript'`      |
 
+> ⚠️ The `typescript` feature config requires the `parserOptions.project`
+> property to be set in your ESLint config. See the [TypeScript parser
+> options][ts-parser-options] for more information. If you're also using
+> Cypress, you may need to add `ignorePatterns: ['cypress.config.ts']` to your
+> ESLint config.
+
 #### Prettier Configs
 
 Finally, you may apply the [Prettier][eslint-config-prettier] config. This must
@@ -83,10 +89,14 @@ module.exports = {
     'plugin:wkovacs64/typescript',
     'prettier',
   ],
+  parserOptions: {
+    project: 'tsconfig.json',
+  },
 };
 ```
 
-React project with Jest, jest-dom, Testing Library, TypeScript, and Prettier:
+React project with Jest, jest-dom, Testing Library, TypeScript, Cypress, and
+Prettier:
 
 ```js
 module.exports = {
@@ -98,6 +108,10 @@ module.exports = {
     'plugin:wkovacs64/typescript',
     'prettier',
   ],
+  parserOptions: {
+    project: 'tsconfig.json',
+  },
+  ignorePatterns: ['cypress.config.ts'],
 };
 ```
 
@@ -134,6 +148,8 @@ This module is distributed under the [MIT License][license].
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/actions?query=workflow%3Aci
 [eslint-config-prettier]:
   https://github.com/prettier/eslint-config-prettier#readme
+[ts-parser-options]:
+  https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/README.md#parseroptionsproject
 [license]:
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/tree/master/LICENSE.txt
 [@shopify/eslint-plugin]:
