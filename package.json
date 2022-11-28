@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-wkovacs64",
-  "version": "0.0.0-semantically-released",
+  "version": "13.18.0",
   "description": "@wKovacs64 ESLint plugin",
   "keywords": [
     "eslint",
@@ -27,6 +27,9 @@
     "lib"
   ],
   "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version && npm install --package-lock-only",
+    "changeset:publish": "changeset publish",
     "format": "prettier --cache --write .",
     "lint": "eslint ."
   },
@@ -55,11 +58,12 @@
     "merge": "^2.1.1"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "0.4.7",
+    "@changesets/cli": "2.25.2",
     "@types/node": "18.11.9",
     "@wkovacs64/prettier-config": "3.0.3",
     "eslint": "8.28.0",
     "prettier": "2.8.0",
-    "semantic-release": "19.0.5",
     "typescript": "4.9.3"
   },
   "peerDependencies": {
