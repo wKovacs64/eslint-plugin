@@ -42,9 +42,13 @@ Next, you may augment the core configuration by applying any combination of
 
 > ⚠️ The `typescript` feature config requires the `parserOptions.project`
 > property to be set in your ESLint config. See the [TypeScript parser
-> options][ts-parser-options] for more information. If you're also using
-> Cypress, you may need to add `ignorePatterns: ['cypress.config.ts']` to your
-> ESLint config.
+> options][ts-parser-options] for more information.
+>
+> - If you're using Cypress, you may need to add
+>   `ignorePatterns: ['cypress.config.ts']` to your ESLint config.
+> - If you're using the `jest` feature config, you may need to disable the
+>   `@typescript-eslint/unbound-method` rule and enable the
+>   `jest/unbound-method` rule instead.
 
 #### Prettier Configs
 
@@ -95,8 +99,7 @@ module.exports = {
 };
 ```
 
-React project with Jest, jest-dom, Testing Library, TypeScript, Cypress, and
-Prettier:
+Kitchen sink:
 
 ```js
 module.exports = {
@@ -112,6 +115,15 @@ module.exports = {
     project: 'tsconfig.json',
   },
   ignorePatterns: ['cypress.config.ts'],
+  overrides: [
+    {
+      files: ['src/**/*.test.ts'],
+      rules: {
+        '@typescript-eslint/unbound-method': 'off',
+        'jest/unbound-method': 'error',
+      },
+    },
+  ],
 };
 ```
 
