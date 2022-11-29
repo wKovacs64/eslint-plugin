@@ -1,5 +1,5 @@
 ---
-'eslint-plugin-wkovacs64': patch
+'eslint-plugin-wkovacs64': minor
 ---
 
 allow `void` statements
