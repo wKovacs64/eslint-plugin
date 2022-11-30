@@ -1,5 +1,13 @@
 # Change Log
 
+## 14.0.0
+
+### Major Changes
+
+- [#110](https://github.com/wKovacs64/eslint-plugin-wkovacs64/pull/110) [`05b7af7`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/05b7af773857182ecb79207146decc7578df7ae1) Thanks [@wKovacs64](https://github.com/wKovacs64)! - enable `@typescript-eslint/recommended-requiring-type-checking` rules
+
+  The TypeScript config now includes rules that require type-checking. For this to work, you must set the `parserOptions.project` property in your ESLint config. You may also need to take additional steps if combined with Cypress or Jest (see the README).
+
 ## 13.19.0
 
 ### Minor Changes
