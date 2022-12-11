@@ -1,5 +1,17 @@
 # Change Log
 
+## 14.1.0
+
+### Minor Changes
+
+- [`aaa5b57`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/aaa5b572bfb5200bc3ff56767d6939bd55d3342d) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@typescript-eslint/*` to v5.46.0
+
+### Patch Changes
+
+- [`b33bdc7`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/b33bdc7a88ce4f9c16c723faff54a7e36243cbf3) Thanks [@wKovacs64](https://github.com/wKovacs64)! - `react/require-default-props`: check arguments instead of `defaultProps` for function components
+
+- [`064577c`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/064577c7b3a7681d05a9056101d7fbbef937a6af) Thanks [@wKovacs64](https://github.com/wKovacs64)! - allow floating promises within IIFEs
+
 ## 14.0.0
 
 ### Major Changes
