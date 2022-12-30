@@ -155,7 +155,7 @@ This module is distributed under the [MIT License][license].
   https://img.shields.io/npm/v/eslint-plugin-wkovacs64.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/eslint-plugin-wkovacs64
 [ci-image]:
-  https://img.shields.io/github/workflow/status/wKovacs64/eslint-plugin-wkovacs64/%F0%9F%A4%96%20CI/main?logo=github&style=flat-square
+  https://img.shields.io/github/actions/workflow/status/wKovacs64/eslint-plugin-wkovacs64/ci.yml?logo=github&style=flat-square
 [ci-url]:
   https://github.com/wKovacs64/eslint-plugin-wkovacs64/actions?query=workflow%3Aci
 [eslint-config-prettier]:
