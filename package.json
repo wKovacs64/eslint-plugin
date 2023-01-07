@@ -63,7 +63,7 @@
     "@types/node": "18.11.18",
     "@wkovacs64/prettier-config": "3.0.3",
     "eslint": "8.31.0",
-    "prettier": "2.8.1",
+    "prettier": "2.8.2",
     "typescript": "4.9.4"
   },
   "peerDependencies": {
