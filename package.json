@@ -40,7 +40,7 @@
   "dependencies": {
     "@babel/core": "^7.21.8",
     "@babel/eslint-parser": "^7.21.8",
-    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/plugin-syntax-jsx": "^7.21.4",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0",
