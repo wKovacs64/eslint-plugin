@@ -1,5 +1,33 @@
 # Change Log
 
+## 14.2.0
+
+### Minor Changes
+
+- [`6503e82`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/6503e82d767a4a349333087c21743c02eccff2cc) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-jsx-a11y` to v6.7.1
+
+- [`37fb388`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/37fb388e43d986914c4de37cf157dda379870403) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-testing-library` to v5.10.3
+
+- [`c79ef4f`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/c79ef4ff56a0a01eee959e71eaa6dc64cccdb5c9) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-import` to v2.27.5
+
+- [`3cec54b`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/3cec54bcadf0d038c0ec9ab4d5b056b6e1ef34ad) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-config-prettier` to v8.8.0
+
+- [`e2225f6`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/e2225f664b8c16bf463fcea1f2aa67559c471200) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-jest` to v27.2.1
+
+- [`c2c4f50`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/c2c4f5029f3fd65544b3b40fec1c94f7b18b3618) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-react` to v7.32.2
+
+- [`9a89d38`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/9a89d382c823ba2b29046b18ed826fc1433dabec) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@typescript-eslint/*` to v5.59.2
+
+### Patch Changes
+
+- [`8d1d8af`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/8d1d8afc6da0daef9ef36cb8b4900712e211d2bb) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/eslint-parser` to v7.21.8
+
+- [`867d973`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/867d9734ce832d91ae7338c3f1032ca13e8196f0) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/core` to v7.21.8
+
+- [`c839bd8`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/c839bd82829ecc509ee310c60233295c0e482292) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-import-resolver-typescript` to v3.5.5
+
+- [`155a9e5`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/155a9e519d930791fd8e8baa491f32983a747c91) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/plugin-syntax-jsx` to v7.21.4
+
 ## 14.1.0
 
 ### Minor Changes
