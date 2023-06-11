@@ -1,5 +1,21 @@
 # Change Log
 
+## 14.3.0
+
+### Minor Changes
+
+- [`cddd5df`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/cddd5df53b173bb4c4bd8ef8faea4ab8d0b2eea2) Thanks [@renovate[bot]](https://github.com/renovate%5Bbot%5D)! - update `eslint-plugin-jest-dom` to v5.0.1
+
+- [`f56bdb6`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/f56bdb636a39ae631895ff506b5035b86264a6bb) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-testing-library` to v5.11.0
+
+- [`5806bbc`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/5806bbc2d425fb3c8e05969875e67e51549ed6f7) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@rushstack/eslint-patch` to v1.3.1
+
+### Patch Changes
+
+- [`abf27a7`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/abf27a71666ea22b5c8f0f68fcacb4006fa48f60) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/*` to v7.22.5
+
+- [`d1d6dfd`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/d1d6dfdb090f1be42e700e754949f7639326349d) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@typescript-eslint/*` to v5.59.9
+
 ## 14.2.0
 
 ### Minor Changes
