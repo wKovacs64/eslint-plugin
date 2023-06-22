@@ -1,5 +1,11 @@
 # Change Log
 
+## 14.3.1
+
+### Patch Changes
+
+- [`0d4f281`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/0d4f2819be32a73a48c6a6d254ccd2d4743b9f91) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable import/no-extraneous-dependencies for playwright
+
 ## 14.3.0
 
 ### Minor Changes
