@@ -64,7 +64,7 @@
     "@wkovacs64/prettier-config": "3.0.3",
     "eslint": "8.43.0",
     "prettier": "2.8.8",
-    "typescript": "5.1.5"
+    "typescript": "5.1.6"
   },
   "peerDependencies": {
     "eslint": ">= 7.5"
