@@ -1,5 +1,21 @@
 # Change Log
 
+## 15.0.0
+
+### Major Changes
+
+- [#124](https://github.com/wKovacs64/eslint-plugin-wkovacs64/pull/124) [`138e22a`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/138e22aa5200c917ec172fdb5138bf2db319b30f) Thanks [@renovate](https://github.com/apps/renovate)! - update `@typescript-eslint/*` to v6
+
+  The `typescript` config now extends from the new typescript-eslint v6 `strict-type-checked` and `stylistic-type-checked` configs. This enables some rules that were not previously enforced, disables some rules that were previously too strict, and may enforce some new stylistic preferences.
+
+### Patch Changes
+
+- [`37ee848`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/37ee8488cecb1cd7f373b11b9bed441ca96032ee) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/*` to v7.22.9
+
+- [`53e08c3`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/53e08c30e384f98c3db3734ca406e6c810b4b0b7) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-jest` to v27.2.3
+
+- [`e7498c4`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/e7498c4e98395bd4a803c0fe6d4b9ed1971c006d) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@rushstack/eslint-patch` to v1.3.2
+
 ## 14.3.1
 
 ### Patch Changes
