@@ -1,5 +1,11 @@
 # Change Log
 
+## 15.0.1
+
+### Patch Changes
+
+- [#127](https://github.com/wKovacs64/eslint-plugin-wkovacs64/pull/127) [`d4f34e2`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/d4f34e29d82ffd5fe49209fa19a9efd9af8aaeef) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable `@typescript-eslint/no-non-null-assertion` rule
+
 ## 15.0.0
 
 ### Major Changes

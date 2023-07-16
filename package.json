@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-wkovacs64",
-  "version": "15.0.0",
+  "version": "15.0.1",
   "description": "@wKovacs64 ESLint plugin",
   "keywords": [
     "eslint",
