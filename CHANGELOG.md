@@ -1,5 +1,31 @@
 # Change Log
 
+## 16.1.0
+
+### Minor Changes
+
+- [`e815fba`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/e815fba953df7b2e4fd563661dfd9db5f68a771b) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update eslint-plugin-jest to v27.9.0
+
+### Patch Changes
+
+- [`a66aa84`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/a66aa8477b1bb43034f5a9ac7901a804f854b5e2) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update @typescript-eslint/\* to v7.0.2
+
+- [`49b29bc`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/49b29bc2dfa530a136505dba0a47537a633d053f) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable import/no-extraneous-dependencies for more config files
+
+- [`ffbb8b0`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/ffbb8b0a4d6caeb77dd050edb6c2eec721d62287) Thanks [@wKovacs64](https://github.com/wKovacs64)! - add `eslint-import-resolver-node` as a dependency
+
+  Not sure what changed but apparently this is required now. `¯\_(ツ)_/¯`
+
+- [`cf45f7b`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/cf45f7b7176f01b1cf8b8ae2fda1518499f1bc35) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable `react/react-in-jsx-scope` rule
+
+  It's hardly ever true anymore.
+
+- [`47cf1c6`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/47cf1c6ecdf1e11f80cb9154ad59e92ee41f1c12) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable `@typescript-eslint/require-await` rule
+
+  I like declaring Remix functions (e.g., `loader` and `action`) as async even if a specific one may not need it, for consistency.
+
+- [`08e0388`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/08e03881fd3331ac818a17430ce87a23623b5637) Thanks [@wKovacs64](https://github.com/wKovacs64)! - disable import/no-extraneous-dependencies for `mocks` directories
+
 ## 16.0.0
 
 ### Major Changes
