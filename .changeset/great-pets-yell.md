@@ -4,4 +4,4 @@
 
 add `eslint-import-resolver-node` as a dependency
 
-Not sure what changed but apparently this is required now. ¯\_(ツ)\_/¯
+Not sure what changed but apparently this is required now. `¯\_(ツ)_/¯`
