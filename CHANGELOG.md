@@ -1,5 +1,33 @@
 # Change Log
 
+## 16.2.0
+
+### Minor Changes
+
+- [`88e9964`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/88e9964a41546bf4a276416224aae77c5128b3f4) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@typescript-eslint/*` to v7.7.1
+
+- [#139](https://github.com/wKovacs64/eslint-plugin-wkovacs64/pull/139) [`2c555a6`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/2c555a6aa96ce8bdca0968e6651a5e53e2d42800) Thanks [@renovate](https://github.com/apps/renovate)! - update eslint-plugin-jest to v28
+
+- [`c76315a`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/c76315a4b09ccba593f599a496c3774bd12b322c) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-react` to v7.34.1
+
+- [`ce57d00`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/ce57d00662fb52f2a5e363017d8957dd36575bfa) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-jest` to v28.3.0
+
+- [`64e3de2`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/64e3de2aa679fad822a2f37a3f2210943e2413ef) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-jest-dom` to v5.4.0
+
+### Patch Changes
+
+- [`463974f`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/463974ff33f4ef5d67e1a3b16b76cc67986186ca) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-react-hooks` to v4.6.2
+
+- [`ef7e39a`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/ef7e39a5783d3b19646d83ea1d2e5e1c15be7dcc) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@rushstack/eslint-patch` to v1.10.2
+
+- [`44d828a`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/44d828a573cefe6967c87003c4061076b2e8a698) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/eslint-parser` to v7.24.1
+
+- [`7f353d9`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/7f353d971e238950de762d9956e2a7771609acff) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `eslint-plugin-testing-library` to v6.2.2
+
+- [`7d86cb9`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/7d86cb97031ae299bae9efda6b2b9e17e5d26353) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/plugin-syntax-jsx` to v7.24.1
+
+- [`0f3c395`](https://github.com/wKovacs64/eslint-plugin-wkovacs64/commit/0f3c3956f4cacaadc1bb22ef5128f6d1fbdffead) Thanks [@wKovacs64](https://github.com/wKovacs64)! - update `@babel/core` to v7.24.4
+
 ## 16.1.0
 
 ### Minor Changes
