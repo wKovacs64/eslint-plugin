@@ -39,7 +39,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/core": "^7.23.9",
+    "@babel/core": "^7.24.4",
     "@babel/eslint-parser": "^7.23.10",
     "@babel/plugin-syntax-jsx": "^7.23.3",
     "@rushstack/eslint-patch": "^1.7.2",
