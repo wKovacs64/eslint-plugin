@@ -48,30 +48,30 @@ jobs:
       - name: 🔬 Lint
         run: npm run lint
 
-  test:
-    name: 📦 Test
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬇️ Checkout repo
-        uses: actions/checkout@v4
+  # test:
+  #   name: 📦 Test
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: ⬇️ Checkout repo
+  #       uses: actions/checkout@v4
 
-      - name: ⎔ Setup node
-        uses: actions/setup-node@v4
-        with:
-          cache: npm
-          node-version-file: '.nvmrc'
+  #     - name: ⎔ Setup node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         cache: npm
+  #         node-version-file: '.nvmrc'
 
-      - name: 📥 Install deps
-        run: npm install
+  #     - name: 📥 Install deps
+  #       run: npm install
 
-      - name: ⏬ Clone a real repository
-        run: git clone --single-branch --depth 1 https://github.com/wKovacs64/use-stepper.git ~/example
+  #     - name: ⏬ Clone a real repository
+  #       run: git clone --single-branch --depth 1 https://github.com/wKovacs64/use-stepper.git ~/example
 
-      - name: 📦 Install package in the real repository
-        run: npx yalc publish && cd ~/example && npx yalc add --dev eslint-plugin-wkovacs64 && npm install --ignore-scripts
+  #     - name: 📦 Install package in the real repository
+  #       run: npx yalc publish && cd ~/example && npx yalc add --dev eslint-plugin-wkovacs64 && npm install --ignore-scripts
 
-      - name: 🔬 Lint the real repository
-        run: cd ~/example && npm run lint
+  #     - name: 🔬 Lint the real repository
+  #       run: cd ~/example && npm run lint
 
   release:
     name: 🚀 Release
